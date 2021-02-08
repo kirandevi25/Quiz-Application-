@@ -1,0 +1,5 @@
+create table user(username varchar(20),password varchar(20))
+
+create table topics(name varchar(20),topic varchar(20),marks int,date date)
+
+create table quiz(question varchar(200),option_a varchar(100),option_b varchar(100),option_c varchar(100),option_d varchar(100),correct_ans varchar(100),topic varchar(100))
